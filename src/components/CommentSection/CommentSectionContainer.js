@@ -1,14 +1,14 @@
 // You will add code to this file
-import React, { useState } from "react";
+import React from "react";
 import CommentInput from "./CommentInput";
 import Comment from "./Comment";
 import "./Comment.css";
 
 const CommentSection = props => {
-console.log("CommentSection props", props)
+// console.log("props", props)
+
   // Add state for the comments
   const commentsArr = props.comments
-  console.log("comments", commentsArr)
   
 
   return (
