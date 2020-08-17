@@ -10,6 +10,7 @@ const SearchBar = () => {
     <div className="search-bar-wrapper">
       <div className="social">
         <FontAwesomeIcon icon={faInstagram} />
+        <h1>Instagram</h1>
       </div>
       <form className="search-form">
         <input
